@@ -53,3 +53,24 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Ignore compiled files
+*.exe
+*.out
+*.o
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore logs and text outputs
+graph.txt
+review.txt
+
+# Ignore Python cache (for future Python projects)
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
